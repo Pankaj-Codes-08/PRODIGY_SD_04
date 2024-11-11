@@ -4,13 +4,15 @@ This Python program solves a 9x9 Sudoku puzzle entered by the user. It uses a ba
 Unsolved Puzzle: Displays the initial grid, with 0s representing empty cells.
 Solved Puzzle: Shows the fully completed puzzle.
 Answer-Only Puzzle: Highlights only the newly filled cells, hiding the original numbers.
-How to Use
+
+## How to Use
 Run the program and input the Sudoku puzzle row by row. Enter numbers separated by spaces, using 0 for empty cells.
 The program will display:
 The initial unsolved puzzle.
 The fully solved puzzle.
 The "answers-only" view, which shows only the cells that were filled by the program.
-Code Structure
+
+## Code Structure
 take_user_input(): Prompts the user to enter the Sudoku puzzle.
 solve_sudoku(): Implements the backtracking algorithm to solve the puzzle.
 print_grid(): Displays the puzzle in grid format.
