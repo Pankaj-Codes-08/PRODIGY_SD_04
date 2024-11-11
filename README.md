@@ -25,4 +25,5 @@ solve_sudoku(): Implements the backtracking algorithm to solve the puzzle.
 print_grid(): Displays the puzzle in grid format.
 
 print_solved_answers(): Shows only the answers for the cells initially left empty.
+#
 ## The program will display the unsolved puzzle, the fully solved puzzle, and an answers-only version highlighting the solution.
